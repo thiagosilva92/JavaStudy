@@ -1,0 +1,24 @@
+package exerc;
+
+public class Atividade_1_12 {
+
+	public static void main(String[] args) {
+		String S1 = args[0];
+		System.out.println(S1);
+		String S2 = null;
+		S2 = args[0]+args[1];
+		System.out.println(S2);
+		String S3 = null;
+		S3 = (args[1]+args[2]).concat(S1);
+		System.out.println(S3);
+		
+		int x = Integer.parseInt(S1);
+		System.out.println(x);
+		int y = Integer.parseInt(S1+S2);
+		System.out.println(y);
+		int z = Integer.parseInt(S3);
+		System.out.println(z);
+		
+		System.out.println(x+y+z);
+	}
+}

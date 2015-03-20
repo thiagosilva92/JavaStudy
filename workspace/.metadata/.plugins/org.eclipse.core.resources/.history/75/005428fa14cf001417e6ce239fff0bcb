@@ -1,0 +1,24 @@
+package uscs;
+
+public class Aluno {
+	String nome;
+	int codmat;
+	String cpf;
+	char sexo;
+	float nota_P1;
+	float nota_P2;
+	
+	Aluno(String nome, int codmat, String cpf, char sexo, float nota_P1, float nota_P2) {
+		super();
+		this.nome = nome;
+		this.codmat = codmat;
+		this.cpf = cpf;
+		this.sexo = sexo;
+		this.nota_P1 = nota_P1;
+		this.nota_P2 = nota_P2;
+	}
+	
+	
+	
+	
+}

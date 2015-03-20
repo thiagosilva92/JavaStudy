@@ -1,0 +1,27 @@
+package atividade_4;
+
+public class Atividade_4_03 {
+	public static void main(String[] args ) {
+		
+		int a = 10 % 3;
+		int b = a | a;
+		System.out.println(b);
+		System.out.println(a);
+		
+		System.out.println( func1(a));
+		System.out.println( func2(a, b));
+	}
+	
+	public static String func1(int x) {
+		if (x == 3)
+			return ("uscs");
+		else return ("computação");
+	}
+	
+	public static String func2(int x, int y) {
+		if (x > y)
+			return ("comp");
+		else return("sistemas");
+	}
+
+}

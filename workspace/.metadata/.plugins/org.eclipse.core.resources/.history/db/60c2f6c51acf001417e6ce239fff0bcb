@@ -1,0 +1,12 @@
+package atividade_3;
+
+import javax.swing.JOptionPane;
+
+public class Aluno {
+	
+	public String nome;
+	public String cpf;
+	public String endereco;
+	
+	
+}
